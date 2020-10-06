@@ -1,0 +1,11 @@
+{
+  "name": "my_little_website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fanismichalakis/my_little_website.git",
+  "author": "fanismichalakis <fanis.michalakis@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "purecss": "^2.0.3"
+  }
+}
