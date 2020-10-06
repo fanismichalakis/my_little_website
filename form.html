@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YARW</title>
+    <meta lang="fr">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./node_modules/purecss/build/pure-min.css">
+    <link rel="stylesheet" href="./style/main.css"
+</head>
+<header>
+    <div class="pure-menu pure-menu-horizontal">
+        <a href="./index.html" class="pure-menu-heading pure-menu-link">BRAND</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+                <a href="./form.html" class="pure-menu-link">Form</a>
+            </li>
+            <li class="pure-menu-item">
+                <a href="./about.html" class="pure-menu-link">About</a>
+            </li>
+        </ul>
+    </div>
+</header>
+<body>
+    <h1>Form</h1>
+    <div>
+        <h2>Please complete the form to enter our strange world</h2>
+        <form class="pure-form pure-form-aligned">
+            <fieldset>
+                <div class="pure-control-group">
+                    <label for="aligned-name">Username</label>
+                    <input type="text" id="aligned-name" placeholder="Username" />
+                    <span class="pure-form-message-inline">This is a required field.</span>
+                </div>
+                <div class="pure-control-group">
+                    <label for="aligned-password">Password</label>
+                    <input type="password" id="aligned-password" placeholder="Password" />
+                    <span class="pure-form-message-inline">This is a required field.</span>
+                </div>
+                <div class="pure-control-group">
+                    <label for="aligned-email">Email Address</label>
+                    <input type="email" id="aligned-email" placeholder="Email Address" />
+                    <span class="pure-form-message-inline">This is a required field.</span>
+                </div>
+                <div class="pure-control-group">
+                    <label for="aligned-foo">Motto</label>
+                    <input type="text" id="aligned-foo" placeholder="Share your motto with others..." />
+                </div>
+                <div class="pure-controls">
+                    <label for="aligned-cb" class="pure-checkbox">
+                        <input type="checkbox" id="aligned-cb" /> I&#x27;ve read the terms and conditions</label>
+                    <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
